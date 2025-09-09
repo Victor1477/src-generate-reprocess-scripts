@@ -69,7 +69,7 @@ public class Main {
                     if (itemsStr.get().isEmpty()) {
                         itemsStr.get().append("'").append(item.getProductCode()).append("'");
                     } else {
-                        itemsStr.get().append(", '").append(item.getProductCode()).append("'");
+                        itemsStr.get().append(",'").append(item.getProductCode()).append("'");
                     }
                 });
 
